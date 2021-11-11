@@ -1,0 +1,50 @@
+:root {
+    font-family: "Source Code Pro", monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+h1 {
+    color: #fff;
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    text-align: center;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.links {
+    display: grid;
+    place-items: center;
+    width: max-content;
+}
+
+.link {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.link a{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: clamp(1rem, 3vw + 1rem, 3.125rem);
+    border: .25rem solid #fff;
+    border-radius: 15px;
+    padding: 0px 15px 0px 15px;
+}
+
+.link a:hover{
+    background-color: #fff;
+    color: #222
+}
